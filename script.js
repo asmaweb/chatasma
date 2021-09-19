@@ -1,5 +1,4 @@
-
-  // Import the functions you need from the SDKs you need
+// Import the functions you need from the SDKs you need
   import { initializeApp } from "https://www.gstatic.com/firebasejs/9.0.2/firebase-app.js";
 import * as rtdb from "https://www.gstatic.com/firebasejs/9.0.2/firebase-database.js";
   import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.0.2/firebase-analytics.js";
@@ -73,4 +72,3 @@ const deleteChat = () =>{
 
 submitChat.addEventListener("click", sendChat);
 deleteButton.addEventListener("click", deleteChat);
-
